@@ -6,5 +6,7 @@ A generic identity icon that can render icons in javascript frontend application
 `npm run build`
 
 ## Running unit tests
+Running a test on a static html file `npx live-server demo`
 
+## Running unit tests 
 Run `ng test`
