@@ -1,28 +1,24 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { Injector, NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 
 import { createCustomElement } from '@angular/elements';
-import { IdenticonComponent } from './identicon/identicon.component';
+import {
+  PolkadotIdentIconComponent,
+  PolkadotIdentIconModule,
+} from 'polkadot-angular-identicon';
 
 @NgModule({
-  declarations: [IdenticonComponent],
-  imports: [ BrowserModule],
+  declarations: [],
+  imports: [BrowserModule, PolkadotIdentIconModule],
   providers: [],
-  entryComponents: [IdenticonComponent],
+  bootstrap: [],
 })
-
-
-
 export class AppModule {
-  constructor(private componentInjector: Injector) {}
-
+  constructor(private injector: Injector) {}
   ngDoBootstrap() {
-
-    const el = createCustomElement(IdenticonComponent, {
-      injector: this.componentInjector
+    const c = createCustomElement(PolkadotIdentIconComponent, {
+      injector: this.injector,
     });
-    customElements.define('polkadot-web-identicon',el)
-
+    customElements.define('polkadot-web-identicon', c);
   }
 }
-

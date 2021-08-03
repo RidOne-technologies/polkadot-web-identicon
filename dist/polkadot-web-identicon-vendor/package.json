@@ -1,0 +1,11 @@
+{
+  "name": "polkadot-web-identicon-vendor",
+  "version": "1.0.1",
+  "description": "Vendor dependency for polkadot-web-identicon library",
+  "main": "vendor.js",
+  "repository": {
+    "url": "https://github.com/RidOne-technologies/polkadot-web-identicon.git"
+  },
+  "author": "Mor GUEYE <gueyemor2009@gmail.com>",
+  "license": "Apache-2.0"
+}

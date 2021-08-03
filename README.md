@@ -1,12 +1,13 @@
-# polkadot-web-identicon
-A generic identity icon that can render icons in javascript frontend applications(Angular, React, Svelte, Vue, etc...)  for Substrate based chains
+# PolkadotWebIdenticon
 
+A generic identity icon that can render Substrate based chains icons for  html/javascript frontend applications.
 
 ## Build
-`npm run build`
 
-## Running unit tests
-Running a test on a static html file `npx live-server demo`
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests 
-Run `ng test`
+## Usage of built example
+See inside [example](example/index.html) folder to see an example of usage
+
+Improvements are on the way !!!
+Happy coding 😎!!!
