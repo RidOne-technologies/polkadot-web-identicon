@@ -1,6 +1,6 @@
 {
   "name": "polkadot-web-identicon-vendor",
-  "version": "1.0.1",
+  "version": "1.0.4-rc1",
   "description": "Vendor dependency for polkadot-web-identicon library",
   "main": "vendor.js",
   "repository": {

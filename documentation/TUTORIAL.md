@@ -1,3 +1,4 @@
+# How to use `polkadot-web-identicon` into your web application
 
 The simplest way to use the component is to download it from npm
 
@@ -77,3 +78,13 @@ Our final structure in the index.html file will look like this:
 </body>
 </html>
 ```
+
+The rendered result should look like this
+
+![rendered icon usage](assets/usage.png)
+
+You can find a complete example in the [pwi](pwi) folder.
+
+Voila ! That's it Happy coding 😎.
+
+

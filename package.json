@@ -1,6 +1,6 @@
 {
   "name": "polkadot-web-identicon",
-  "version": "1.0.1",
+  "version": "1.0.4-rc1",
   "scripts": {
     "build": "ng build",
     "build:prod": "ng build --prod"
@@ -20,7 +20,7 @@
     "@angular/platform-browser": "~11.2.9",
     "@angular/platform-browser-dynamic": "~11.2.9",
     "@angular/router": "~11.2.9",
-    "polkadot-angular-identicon": "1.0.1",
+    "polkadot-angular-identicon": "1.0.2-rc1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
@@ -46,5 +46,6 @@
   },
   "browser": {
     "crypto": false
-  }
+  },
+  "license": "Apache-2.0"
 }
