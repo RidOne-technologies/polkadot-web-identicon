@@ -90,7 +90,8 @@ Our final structure in the index.html file will look like this:
 you can run `npx live-server` under the pwi or your project to see the render icons
 
 ## Usage of built example
-See inside [example](example/index.html) folder to see a ready to use example
+See inside [pwi](pwi/index.html) folder to see a ready to use example.
+on the terminal type `npm i` and `npx live-server`to run the example.
 
 
 ## Building
