@@ -79,7 +79,10 @@ Our final structure in the index.html file will look like this:
 </html>
 ```
 
-The rendered result should look like this
+
+### Run
+
+to run the project type `npx live-server` and the rendered result should look like this
 
 ![rendered icon usage](assets/usage.png)
 
