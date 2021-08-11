@@ -1,4 +1,4 @@
-# PolkadotWebIdenticon
+# Polkadot Web Identicon
 
 A generic identity icon that renders Substrate based chains identicons for  html/javascript frontend applications.
 
@@ -94,7 +94,7 @@ See inside [pwi](pwi/index.html) folder to see a ready to use example.
 on the terminal type `npm i` and `npx live-server`to run the example.
 
 
-## Building
+## Hackers Guide
 
 For those who wants to build or tweak the library see [BUILD.md](documentation/BUILD.md) file under documentation.
 
