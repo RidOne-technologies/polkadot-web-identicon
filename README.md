@@ -41,8 +41,8 @@ Now we can install the `polkadot-web-identicon` package from npm with :
  `npm i polkadot-web-identicon` 
 After the installation completed we are ready to use the package we just need to do two things:
 
-    - import the component library code files
-    - call the component and use it with our parameters
+- import the component library code files
+- call the component and use it with our parameters
 
 These are the `attributes` that we can pass to the `polkadot-web-identicon` tag
 
@@ -87,7 +87,8 @@ Our final structure in the index.html file will look like this:
 
 ## Run
 
-you can run `npx live-server` under the pwi or your project to see the render icons
+you can run `npx live-server` under the pwi or your project to see the render icons 
+or open the index.html file on browser
 
 ## Usage of built example
 See inside [pwi](pwi/index.html) folder to see a ready to use example.

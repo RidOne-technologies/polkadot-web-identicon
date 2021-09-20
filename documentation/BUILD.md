@@ -4,13 +4,13 @@ For Those wo want to build from this project or tweak it here is a guide of how 
 
 Note that the web component is based on the `polkadot-angular-identicon` component 
 
-1) Install the Angular cli with `npm i -g @angular/cli`
+1)Make sure to have the Angular cli installed or install it with `npm i -g @angular/cli`
 
-2) Clone the project `polkadot-web-identicon` and open it into your favorite IDE.
+2) Clone the project `polkadot-web-identicon` to open it into your favorite IDE.
 
 3) Install dependencies with `npm i`
 
-4) Open your IDE's terminal and type `ng build --prod`
+4) Open your IDE's terminal and type `ng build --prod` to build the web component library.
 
 A `dist` folder containing `polkadot-web-identicon` folder is created.
 Inside the `dist/polkadot-web-identicon` you can see a couple of generated files :
