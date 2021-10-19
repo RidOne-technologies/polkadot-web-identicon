@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "polkadot-web-identicon": "^1.0.4-rc1"
+    "polkadot-web-identicon": "^1.0.5-rc2"
   }
 }

@@ -4,11 +4,23 @@ A generic identity icon that renders Substrate based chains identicons for  html
 
 This project is based on the [`polkadod-angular-identicon`](https://github.com/RidOne-technologies/polkadot-angular-identicon)
 
+
+## Prerequisites
+
+Run `npm i live-server -g` to install live-server globally
+
 # Usage
 
 The simplest way to use the component is to download it from npm
 
 We assume you have `npm` and `node.js` installed in your environment.
+
+There is a ready to use project  or clone this [pwi-example](https://github.com/RidOne-technologies/pwi-example) project.
+
+after cloning the project type `npm i` to download the dependencies and `live-server` to run the example.
+
+
+Another way also is to create a project from scratch with npm init and an empty html file.
 
 1) create a folder with a name of your choice for example :
 `pwi` (like polkadot-web-identicon 😎)
@@ -82,10 +94,6 @@ Our final structure in the index.html file will look like this:
 </body>
 </html>
 ```
-
-## Install live-server
-
-Run `npm i live-server -g` to install live-server globally
 
 ## Run
 
