@@ -1,3 +1,10 @@
+# Polkadot Web Identicon
+
+A generic identity icon that renders Substrate based chains identicons for  html/javascript frontend applications.
+
+This project is based on the [`polkadod-angular-identicon`](https://github.com/RidOne-technologies/polkadot-angular-identicon)
+
+# Usage
 
 The simplest way to use the component is to download it from npm
 
@@ -32,10 +39,10 @@ Create an index.html file that will contain the html and javascript code and pas
 Now we can install the `polkadot-web-identicon` package from npm with :
 
  `npm i polkadot-web-identicon` 
-After the installition completed we are ready to use the package we just need to do two things:
+After the installation completed we are ready to use the package we just need to do two things:
 
-    - import the component library code files
-    - call the component and use it with our parameters
+- import the component library code files
+- call the component and use it with our parameters
 
 These are the `attributes` that we can pass to the `polkadot-web-identicon` tag
 
@@ -72,8 +79,24 @@ Our final structure in the index.html file will look like this:
 <script type="text/javascript" src="node_modules/polkadot-web-identicon/main.js"></script>
 <script type="text/javascript" src="node_modules/polkadot-web-identicon/polyfills.js"></script>
 <script type="text/javascript" src="node_modules/polkadot-web-identicon/runtime.js"></script>
-<script type="text/javascript" src="node_modules/polkadot-web-identicon-vendor/vendor.js"></script>
 
 </body>
 </html>
 ```
+
+## Run
+
+you can run `npx live-server` under the pwi or your project to see the render icons 
+or open the index.html file on browser
+
+## Usage of built example
+See inside [pwi](pwi/index.html) folder to see a ready to use example.
+on the terminal type `npm i` and `npx live-server`to run the example.
+
+
+## Hackers Guide
+
+For those who wants to build or tweak the library see [BUILD.md](documentation/BUILD.md) file under documentation.
+
+Improvements are on the way !!!
+Happy coding 😎!!!

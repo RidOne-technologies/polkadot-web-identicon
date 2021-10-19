@@ -66,7 +66,6 @@ Our final structure in the index.html file will look like this:
 </head>
 <body>
 
-
     <h3>Polkadot icon theme  with default size</h3>
     <polkadot-web-identicon address="5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty" theme="polkadot"></polkadot-web-identicon>
     <br>
@@ -76,23 +75,26 @@ Our final structure in the index.html file will look like this:
     <h3>jdenticon icon theme  with size of 120</h3>
     <polkadot-web-identicon address="5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty" theme="jdenticon" size="120"></polkadot-web-identicon>
 
-<script type="text/javascript" src="node_modules/polkadot-web-identicon/main.js"></script>
-<script type="text/javascript" src="node_modules/polkadot-web-identicon/polyfills.js"></script>
-<script type="text/javascript" src="node_modules/polkadot-web-identicon/runtime.js"></script>
-<script type="text/javascript" src="node_modules/polkadot-web-identicon-vendor/vendor.js"></script>
+    <script type="text/javascript" src="node_modules/polkadot-web-identicon/main.js"></script>
+    <script type="text/javascript" src="node_modules/polkadot-web-identicon/polyfills.js"></script>
+    <script type="text/javascript" src="node_modules/polkadot-web-identicon/runtime.js"></script>
 
 </body>
 </html>
 ```
 
+## Install live-server
+
+Run `npm i live-server -g` to install live-server globally
+
 ## Run
 
-you can run `npx live-server` under the pwi or your project to see the render icons 
+you can run `live-server` under the pwi or your project to see the render icons 
 or open the index.html file on browser
 
 ## Usage of built example
 See inside [pwi](pwi/index.html) folder to see a ready to use example.
-on the terminal type `npm i` and `npx live-server`to run the example.
+on the terminal type `npm i` and `live-server`to run the example.
 
 
 ## Hackers Guide
